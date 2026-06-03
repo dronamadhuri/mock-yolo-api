@@ -27,31 +27,6 @@ It supports image uploads, fake object detection, history tracking, and a feedba
 - **aiofiles** – Async file uploads
 - **Python 3.11+**
 
----
-
-## 📁 Project Structure
-
-
-mock-yolo-api/
-│
-├── main.py # FastAPI app
-├── ml/
-│ └── mock_yolo.py # Mock YOLO inference
-│
-├── db/
-│ ├── database.py # DB connection
-│ └── models.py # DB models
-│
-├── schemas/
-│ └── detection.py # Pydantic schemas
-│
-├── uploads/ # Uploaded images
-├── database.db # SQLite database
-└── requirements.txt
-
-
----
-
 ## ⚙️ Installation
 
 ### 1. Clone repository
